@@ -98,7 +98,7 @@ http://localhost:8080/predict
 
 The Body of the post request should be a json list of inputs the covid model expects 
 ```
-[{age: 12, sshx_data_abn_lung_asc: 0, sshx_data_altered_mental_state: 0, sshx_data_headache: 0, sshx_data_hypotension: 0, sshx_data_irritability_cnfsn: 0, sshx_data_loss_of_taste_smell: 0, sshx_data_malaise: 0, sshx_data_myalgia: 0, sshx_data_nasal_congestion: 0, sshx_data_nausea: 0, sshx_data_nose_bleed: 0, sshx_data_pain: 0, sshx_data_pharyngeal_exudate: 0, sshx_data_prostration: 0, sshx_data_rhinorrhea: 0, sshx_data_seizures: 0, sshx_data_difficulty_breathing: 0, sshx_data_sneezing: 0, sshx_data_sore_throat: 0, sshx_data_tachypnea: 0, sshx_data_vomiting: 0, sshx_data_other: 1, ch_mi: 0, ch_chf: 0, ch_pvd: 0, ch_cevd: 0, ch_dementia: 0, ch_cpd: 0, ch_rheumatic: 0, ch_pud: 0, ch_paraplegia: 0, ch_rd: 0, ch_cancer: 0, ch_mets: 0, diabetes: 0, liver: 0}]
+[{age: 8, sshx_data_abn_lung_asc: 0, sshx_data_altered_mental_state: 0, sshx_data_headache: 0, sshx_data_hypotension: 0, sshx_data_irritability_cnfsn: 0, sshx_data_loss_of_taste_smell: 0, sshx_data_malaise: 0, sshx_data_myalgia: 0, sshx_data_nasal_congestion: 0, sshx_data_nausea: 0, sshx_data_nose_bleed: 0, sshx_data_pain: 0, sshx_data_pharyngeal_exudate: 0, sshx_data_prostration: 0, sshx_data_rhinorrhea: 0, sshx_data_seizures: 0, sshx_data_difficulty_breathing: 0, sshx_data_sneezing: 0, sshx_data_sore_throat: 0, sshx_data_tachypnea: 0, sshx_data_vomiting: 0, sshx_data_other: 1, ch_mi: 0, ch_chf: 0, ch_pvd: 0, ch_cevd: 0, ch_dementia: 0, ch_cpd: 0, ch_rheumatic: 0, ch_pud: 0, ch_paraplegia: 0, ch_rd: 0, ch_cancer: 0, ch_mets: 0, diabetes: 0, liver: 0}]
 ```
 
 The response would be a list where each item of the list corresponds to that input data set
